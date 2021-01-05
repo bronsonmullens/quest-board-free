@@ -56,15 +56,55 @@
 		E3296FEB25A42723008DAF5D /* Quest Board */ = {
 			isa = PBXGroup;
 			children = (
-				E3296FEC25A42723008DAF5D /* AppDelegate.swift */,
-				E3296FEE25A42723008DAF5D /* SceneDelegate.swift */,
-				E3296FF025A42723008DAF5D /* ViewController.swift */,
-				E3296FF225A42723008DAF5D /* Main.storyboard */,
+				E329700225A4293C008DAF5D /* Resources */,
+				E329700625A42976008DAF5D /* Models */,
+				E329700725A42981008DAF5D /* Model Controllers */,
+				E329700425A42963008DAF5D /* View Controllers */,
+				E329700525A4296B008DAF5D /* Storyboards */,
 				E3296FF525A42724008DAF5D /* Assets.xcassets */,
-				E3296FF725A42724008DAF5D /* LaunchScreen.storyboard */,
-				E3296FFA25A42724008DAF5D /* Info.plist */,
 			);
 			path = "Quest Board";
+			sourceTree = "<group>";
+		};
+		E329700225A4293C008DAF5D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E3296FEC25A42723008DAF5D /* AppDelegate.swift */,
+				E3296FEE25A42723008DAF5D /* SceneDelegate.swift */,
+				E3296FFA25A42724008DAF5D /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E329700425A42963008DAF5D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E3296FF025A42723008DAF5D /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E329700525A4296B008DAF5D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E3296FF225A42723008DAF5D /* Main.storyboard */,
+				E3296FF725A42724008DAF5D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E329700625A42976008DAF5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E329700725A42981008DAF5D /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +328,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JA7B9846WV;
-				INFOPLIST_FILE = "Quest Board/Info.plist";
+				INFOPLIST_FILE = "Quest Board/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +347,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JA7B9846WV;
-				INFOPLIST_FILE = "Quest Board/Info.plist";
+				INFOPLIST_FILE = "Quest Board/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
