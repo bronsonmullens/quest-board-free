@@ -1,1 +1,1 @@
-# daily-quest-free
+# quest-board-free
